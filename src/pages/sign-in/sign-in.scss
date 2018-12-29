@@ -1,0 +1,64 @@
+page-sign-in {
+    .bg-image {
+        background-image: url('../../assets/imgs/sign_in_screen.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        min-height: 100%;
+    }
+
+    ion-grid {
+        height: 100%;
+        justify-content: center;
+    }
+
+    .bigger_text {
+        font-size: 3em;
+        color: DarkRed;
+        text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+    }
+
+    .bottomRow
+    {
+     margin-top: 40px;
+    }
+
+    .Buttons{
+        background-color: orange;
+        color: DarkRed;
+    }
+
+    .label {
+        font-size: 1.5em;
+        color: DarkRed;
+        text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+    }
+
+    .input {
+        font-size: 1.5em;
+    }
+
+    .topRow {
+        margin-top: 40px;
+    }
+
+    .bottomRow {
+        margin-top: 40px;
+    }
+
+    .text-input::-moz-placeholder {
+      color: red;
+    }
+
+    .text-input:-ms-input-placeholder {
+      color: red;
+    }
+
+    .text-input::-webkit-input-placeholder {
+      color: red;
+    }
+
+    .text-input {
+        color: orange;
+    }
+}

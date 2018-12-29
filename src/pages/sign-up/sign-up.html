@@ -1,0 +1,41 @@
+<ion-content class = "bg-image">
+  <ion-grid>
+
+    <ion-row class="topRow">
+      <ion-col text-right>
+            <ion-label color="primary" class="label">First Name</ion-label>
+      </ion-col>
+      <ion-col text-center>
+            <ion-input class="text-input" #firstName placeholder="First Name"></ion-input>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col text-right>
+              <ion-label color="primary" class="label">Last Name</ion-label>
+      </ion-col>
+      <ion-col text-center>
+              <ion-input class="text-input" #lastName placeholder="Last Name"></ion-input>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col text-right>
+              <ion-label color="primary" class="label">Brother ID</ion-label>
+      </ion-col>
+      <ion-col text-center>
+              <ion-input class="text-input" #broID placeholder="Brother ID"></ion-input>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="bottomRow">
+      <ion-col text-center>
+          <button ion-button class="Buttons" (click)="processSignUp()">Sign Up</button>
+          <button ion-button class="Buttons" (click)="openSignIn()">Go To Sign In</button>
+          <button ion-button class="Buttons" (click) = "openHome()">Home</button>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+</ion-content>

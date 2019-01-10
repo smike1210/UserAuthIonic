@@ -15,12 +15,12 @@ import { BingoPage } from '../pages/bingo/bingo';
 
 
 const config = {
-    apiKey: "AIzaSyAZfHk8Z8_nHp8ir4n0kGg7FIpdvz0zfCU",
-    authDomain: "userauthtest-78822.firebaseapp.com",
-    databaseURL: "https://userauthtest-78822.firebaseio.com",
-    projectId: "userauthtest-78822",
-    storageBucket: "userauthtest-78822.appspot.com",
-    messagingSenderId: "1025484954137"
+    apiKey: "sample",
+    authDomain: "sample.firebaseapp.com",
+    databaseURL: "https://sample.firebaseio.com",
+    projectId: "sample",
+    storageBucket: "sample.appspot.com",
+    messagingSenderId: "12345"
  };
  firebase.initializeApp(config);
 

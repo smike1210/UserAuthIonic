@@ -42,7 +42,6 @@ export class SignInPage {
   }
 
   processSignIn(){
-      // console.log(this.firstName.value, this.lastName.value, this.password.value)
       if(this.firstName.value == "" || this.lastName.value == "" || this.password.value == ""){
           let alert = this.alertCtrl.create({
             title: 'Please Enter All Required Credentials',

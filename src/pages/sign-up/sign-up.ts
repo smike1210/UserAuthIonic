@@ -26,20 +26,7 @@ export class SignUpPage {
 
 
     constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController) {
-        // let db = firebase.firestore();
-        // db.collection("usersTest").add({
-        //     first_name: "Mike",
-        //     last_name: "Sheaa"
-        // }).then((data)=>{
-        //     console.log(data)
-        // }).catch((error)=>{
-        //     console.log(error)
-        // })
-
-        // let shaObj = new jsSHA("SHA-256", "TEXT");
-        // shaObj.update("This is a test");
-        // let hash = shaObj.getHash("HEX");
-        // console.log(hash)
+        
     }
 
 

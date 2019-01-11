@@ -28,7 +28,6 @@ export class NewPasswordPage {
       this.lastName = navParams.get('lastName');
       this.id = navParams.get('id');
       this.fullName =  this.firstName + " " + this.lastName;
-      // console.log(this.fullName);
   }
 
   ionViewDidLoad() {
